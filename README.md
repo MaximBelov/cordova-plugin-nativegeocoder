@@ -21,6 +21,16 @@ You can also configure the following variable to customize the iOS location plis
 
 - `LOCATION_WHEN_IN_USE_DESCRIPTION` for `NSLocationWhenInUseUsageDescription` (defaults to "Use geocoder service")
 
+Add `SwiftVersion` to your config.xml
+
+```xml
+
+    <preference name="SwiftVersion" value="5" />
+    <!-- or  -->
+    <preference name="SwiftVersion" value="5.9" />
+
+```
+
 ## Supported Platforms
 - iOS
 - Android
